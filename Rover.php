@@ -46,12 +46,39 @@ class Rover implements Subject
         return $this->location->toString();
     }
 
+    public function processInstructions($instructions){
+        echo MessageParser::parseMessage($instructions);
+    }
+
     public function move(){
-
+        switch($this->location->direction){
+            case Direction::NORTH:
+                $this->location->y++;
+                break;
+            case Direction::EAST:
+                $this->location->x++;
+                break;
+            case Direction::SOUTH:
+                $this->location->y--;
+                break;
+            case Direction::WEST:
+                $this->location->x--;
+                break;
+            default:
+                break;
+        }
     }
 
-    public function rotate(){
+    function turnLeft(){
+        echo $this->location->toString();
 
+        echo "Turning left";
     }
 
+    function turnRight($direction){
+        if($direction == Direction::WEST){
+            return 0;
+        }
+        return $direction++;
+    }
 }
