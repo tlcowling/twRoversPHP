@@ -2,6 +2,39 @@
 
 include_once('Includes.php');
 
+class RoverLocation
+{
+    private $x = 0;
+    private $y = 0;
+    private $direction = Direction::NORTH;
+
+    public function __construct($x,$y,$direction){
+        $this->x = $x;
+        $this->y = $y;
+        $this->direction = $direction;
+    }
+
+    public function direction(){
+        return $this->direction;
+    }
+
+    public function goNorth(){
+        $this->y++;
+    }
+
+    public function goEast(){
+        $this->x++;
+    }
+
+    public function goSouth(){
+        $this->y--;
+    }
+
+    public function goWest(){
+        $this->x--;
+    }
+}
+
 class Rover implements Subject
 {
     public $location;
@@ -33,7 +66,7 @@ class Rover implements Subject
         }
     }
 
-    public function save(){
+    private function save(){
         $this->notify();
     }
 
@@ -43,7 +76,7 @@ class Rover implements Subject
     }
 
     public function getLocation(){
-        return $this->location->toString();
+        return $this->location;
     }
 
     public function processInstructions($instructions){
@@ -51,18 +84,18 @@ class Rover implements Subject
     }
 
     public function move(){
-        switch($this->location->direction){
+        switch($this->location->direction()){
             case Direction::NORTH:
-                $this->location->y++;
+                $this->location->goNorth();
                 break;
             case Direction::EAST:
-                $this->location->x++;
+                $this->location->goEast();
                 break;
             case Direction::SOUTH:
-                $this->location->y--;
+                $this->location->goSouth();
                 break;
             case Direction::WEST:
-                $this->location->x--;
+                $this->location->goEast();
                 break;
             default:
                 break;

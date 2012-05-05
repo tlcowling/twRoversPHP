@@ -5,11 +5,7 @@
 <body>
 
 <?php
-	include('Rover.php');
-	$rover = new Rover();
-	
-	echo $rover.getStatus();
-	
+
 
 ?>
 </body>
