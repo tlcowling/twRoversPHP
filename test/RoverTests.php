@@ -5,6 +5,7 @@ require_once('../classes/Includes.php');
 require_once('simpletest/autorun.php');
 
 class RoverTests extends UnitTestCase{
+
     function testRoverIsInitialisedAtOriginFacingNorth(){
         $startingLocation = new RoverLocation(0,0,Direction::NORTH);
         $roverInitialisedAtOrigin = new Rover($startingLocation);
@@ -20,5 +21,45 @@ class RoverTests extends UnitTestCase{
         $roverInitialisedAtOrigin->move();
 
         $this->assertEqual($roverInitialisedAtOrigin->getLocation(),$expectedLocation);
+    }
+
+    function testRoverSuccessfullyRotatesLeftFromNorthToWest(){
+        $startingLocation = new RoverLocation(0,0,Direction::NORTH);
+        $locationAndDirectionAfterLeftRotation = new RoverLocation(0,0,Direction::WEST);
+        $roverThatWillRotateLeft = new Rover($startingLocation);
+
+        $roverThatWillRotateLeft->turnLeft();
+
+        $this->assertEqual($locationAndDirectionAfterLeftRotation,$roverThatWillRotateLeft->getLocation());
+    }
+
+    function testRoverSuccessfullyRotatesLeftFromWestToSouth(){
+        $startingLocation = new RoverLocation(0,0,Direction::WEST);
+        $locationAndDirectionAfterLeftRotation = new RoverLocation(0,0,Direction::SOUTH);
+        $roverThatWillRotateLeft = new Rover($startingLocation);
+
+        $roverThatWillRotateLeft->turnLeft();
+
+        $this->assertEqual($locationAndDirectionAfterLeftRotation,$roverThatWillRotateLeft->getLocation());
+    }
+
+    function testRoverSuccessfullyRotatesRightFromNorthToEast(){
+        $startingLocation = new RoverLocation(0,0,Direction::NORTH);
+        $locationAndDirectionAfterRightRotation = new RoverLocation(0,0,Direction::EAST);
+        $roverThatWillRotateRight = new Rover($startingLocation);
+
+        $roverThatWillRotateRight->turnRight();
+
+        $this->assertEqual($locationAndDirectionAfterRightRotation,$roverThatWillRotateRight->getLocation());
+    }
+
+    function testRoverSuccessfullyRotatesRightFromWestToNorth(){
+        $startingLocation = new RoverLocation(0,0,Direction::WEST);
+        $locationAndDirectionAfterRightRotation = new RoverLocation(0,0,Direction::NORTH);
+        $roverThatWillRotateRight = new Rover($startingLocation);
+
+        $roverThatWillRotateRight->turnRight();
+
+        $this->assertEqual($locationAndDirectionAfterRightRotation,$roverThatWillRotateRight->getLocation());
     }
 }
