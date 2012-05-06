@@ -1,39 +1,12 @@
 <?php
+define('__ROOT__', dirname(dirname(__FILE__)));
 
-include_once('Includes.php');
-
-class RoverLocation
-{
-    private $x = 0;
-    private $y = 0;
-    private $direction = Direction::NORTH;
-
-    public function __construct($x,$y,$direction){
-        $this->x = $x;
-        $this->y = $y;
-        $this->direction = $direction;
-    }
-
-    public function direction(){
-        return $this->direction;
-    }
-
-    public function goNorth(){
-        $this->y++;
-    }
-
-    public function goEast(){
-        $this->x++;
-    }
-
-    public function goSouth(){
-        $this->y--;
-    }
-
-    public function goWest(){
-        $this->x--;
-    }
-}
+require_once __ROOT__.'/interfaces/Subject.php';
+require_once __ROOT__.'/interfaces/Observer.php';
+require_once __ROOT__.'/MessageParser.php';
+require_once 'RoverLocation.php';
+require_once 'RoverController.php';
+require_once 'RoverInstructions.php';
 
 class Rover implements Subject
 {
@@ -103,15 +76,20 @@ class Rover implements Subject
     }
 
     function turnLeft(){
-        echo $this->location->toString();
-
-        echo "Turning left";
+        $currentRoverDirection = $this->location->direction();
+        if($currentRoverDirection == Direction::NORTH){
+            $this->location->setDirection(Direction::WEST);
+        }else{
+            $this->location->setDirection($currentRoverDirection-1);
+        }
     }
 
-    function turnRight($direction){
-        if($direction == Direction::WEST){
-            return 0;
+    function turnRight(){
+        $currentRoverDirection = $this->location->direction();
+        if($currentRoverDirection == Direction::WEST){
+            $this->location->setDirection(Direction::NORTH);
+        }else{
+            $this->location->setDirection($currentRoverDirection+1);
         }
-        return $direction++;
     }
 }

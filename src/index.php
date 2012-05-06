@@ -5,7 +5,7 @@
 <body>
 
 <?php
-
+    $roverController = new RoverController();
 
 ?>
 </body>

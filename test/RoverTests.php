@@ -1,8 +1,8 @@
 <?php
 
-require_once('../classes/Includes.php');
-
-require_once('simpletest/autorun.php');
+require_once 'simpletest/autorun.php';
+require_once '../src/rover/RoverLocation.php';
+require_once '../src/rover/Rover.php';
 
 class RoverTests extends UnitTestCase{
 
@@ -61,5 +61,18 @@ class RoverTests extends UnitTestCase{
         $roverThatWillRotateRight->turnRight();
 
         $this->assertEqual($locationAndDirectionAfterRightRotation,$roverThatWillRotateRight->getLocation());
+    }
+
+    function testRoverRotatesBackToStartingDirectionAfterFourRotations(){
+        $startingLocation = new RoverLocation(0,0,Direction::NORTH);
+        $locationAndDirectionAfterFullRotation = new RoverLocation(0,0,Direction::NORTH);
+        $roverThatWillFullyRotate = new Rover($startingLocation);
+
+        $roverThatWillFullyRotate->turnLeft();
+        $roverThatWillFullyRotate->turnLeft();
+        $roverThatWillFullyRotate->turnLeft();
+        $roverThatWillFullyRotate->turnLeft();
+
+        $this->assertEqual($locationAndDirectionAfterFullRotation,$roverThatWillFullyRotate->getLocation());
     }
 }
