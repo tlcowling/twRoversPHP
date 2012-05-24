@@ -1,7 +1,6 @@
 <?php
-
-require_once "/Users/thomasweb/Dropbox/Projects/twRoversPHP/src/rover/Rover.php";
-require_once "/Users/thomasweb/Dropbox/Projects/twRoversPHP/src/rover/RoverLocation.php";
+require_once dirname(__FILE__)."/../src/rover/Rover.php";
+require_once dirname(__FILE__)."/../src/rover/RoverLocation.php";
 
 class RoverTests extends PHPUnit_Framework_TestCase{
 

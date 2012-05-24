@@ -1,6 +1,6 @@
 <?php
 
-require_once __ROOT__.'/MessageParser.php';
+require_once dirname(__FILE__).'/../MessageParser.php';
 
 class RoverInstructions
 {

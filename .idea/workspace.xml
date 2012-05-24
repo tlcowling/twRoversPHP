@@ -2,146 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442f1659-00b7-4170-8c84-3b71916a69c7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/AllTests.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/HELP_MY_TESTS_DONT_WORK_ANYMORE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/VERSION" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/arguments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/authentication.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/autorun.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/browser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/collector.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/compatibility.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/cookies.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/default_reporter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/detached.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/en/authentication_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/en/browser_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/en/docs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/en/expectation_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/en/form_testing_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/en/group_test_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/en/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/en/mock_objects_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/en/overview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/en/partial_mocks_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/en/reporter_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/en/unit_test_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/en/web_tester_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/fr/authentication_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/fr/browser_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/fr/docs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/fr/expectation_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/fr/form_testing_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/fr/group_test_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/fr/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/fr/mock_objects_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/fr/overview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/fr/partial_mocks_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/fr/reporter_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/fr/unit_test_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/docs/fr/web_tester_documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/dumper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/eclipse.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/encoding.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/errors.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/exceptions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/expectation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/extensions/pear_test_case.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/extensions/testdox.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/extensions/testdox/test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/frames.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/http.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/invoker.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/mock_objects.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/php_parser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/recorder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/reflection_php4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/reflection_php5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/remote.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/reporter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/scorer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/selector.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/shell_tester.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/simpletest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/socket.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/tag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/acceptance_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/adapter_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/all_tests.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/arguments_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/authentication_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/autorun_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/bad_test_suite.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/browser_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/collector_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/command_line_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/compatibility_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/cookies_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/detached_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/dumper_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/eclipse_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/encoding_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/errors_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/exceptions_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/expectation_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/form_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/frames_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/http_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/interfaces_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/interfaces_test_php5_1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/live_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/mock_objects_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/page_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/parse_error_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/parsing_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/php_parser_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/recorder_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/reflection_php5_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/remote_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/shell_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/shell_tester_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/simpletest_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/site/file.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/socket_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/support/collector/collectable.2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/support/empty_test_file.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/support/failing_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/support/latin1_sample" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/support/passing_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/support/recorder_sample.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/support/spl_examples.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/support/supplementary_upload_sample.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/support/test1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/support/upload_sample.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/tag_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/test_with_parse_error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/unit_tester_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/unit_tests.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/url_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/user_agent_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/visual_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/web_tester_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test/xml_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/test_case.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/tidy_parser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/unit_tester.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/url.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/user_agent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/web_tester.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/simpletest/xml.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/MessageParserTests.php" afterPath="$PROJECT_DIR$/test/MessageParserTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/RoverTests.php" afterPath="$PROJECT_DIR$/test/RoverTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/simpletest/test/support/collector/collectable.1" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MessageParser.php" afterPath="$PROJECT_DIR$/src/MessageParser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rover/Direction.php" afterPath="$PROJECT_DIR$/src/rover/Direction.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rover/Rover.php" afterPath="$PROJECT_DIR$/src/rover/Rover.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rover/RoverController.php" afterPath="$PROJECT_DIR$/src/rover/RoverController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rover/RoverInstructions.php" afterPath="$PROJECT_DIR$/src/rover/RoverInstructions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/MessageParserTest.php" afterPath="$PROJECT_DIR$/test/MessageParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/RoverTest.php" afterPath="$PROJECT_DIR$/test/RoverTest.php" />
     </list>
     <ignored path="twRoversPHP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -178,28 +43,7 @@
       <file leaf-file-name="Rover.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/rover/Rover.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="31" selection-start="2466" selection-end="2466" vertical-scroll-proportion="1.2442397">
-              <folding>
-                <element signature="n#addObserver#0;n#Rover#0;n#!!top" expanded="false" />
-                <element signature="n#removeObserver#0;n#Rover#0;n#!!top" expanded="false" />
-                <element signature="n#notify#0;n#Rover#0;n#!!top" expanded="false" />
-                <element signature="e#926#1014#0" expanded="false" />
-                <element signature="n#setLocation#0;n#Rover#0;n#!!top" expanded="false" />
-                <element signature="n#save#0;n#Rover#0;n#!!top" expanded="false" />
-                <element signature="n#getLocation#0;n#Rover#0;n#!!top" expanded="false" />
-                <element signature="n#processInstructions#0;n#Rover#0;n#!!top" expanded="false" />
-                <element signature="n#move#0;n#Rover#0;n#!!top" expanded="false" />
-                <element signature="n#turnLeft#0;n#Rover#0;n#!!top" expanded="false" />
-                <element signature="n#turnRight#0;n#Rover#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Direction.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rover/Direction.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="21" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+            <state line="100" column="32" selection-start="2780" selection-end="2780" vertical-scroll-proportion="0.53125">
               <folding />
             </state>
           </provider>
@@ -235,7 +79,7 @@
       <file leaf-file-name="MessageParserTest.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/MessageParserTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0">
+            <state line="2" column="35" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -244,7 +88,7 @@
       <file leaf-file-name="RoverInstructions.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rover/RoverInstructions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+            <state line="5" column="1" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -253,16 +97,8 @@
       <file leaf-file-name="RoverTest.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/RoverTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="15" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#testRoverMovesOneBlockToTheNorthFromOrigin#0;n#RoverTests#0;n#!!top" expanded="false" />
-                <element signature="n#testRoverSuccessfullyRotatesLeftFromNorthToWest#0;n#RoverTests#0;n#!!top" expanded="false" />
-                <element signature="n#testRoverSuccessfullyRotatesLeftFromWestToSouth#0;n#RoverTests#0;n#!!top" expanded="false" />
-                <element signature="n#testRoverSuccessfullyRotatesRightFromNorthToEast#0;n#RoverTests#0;n#!!top" expanded="false" />
-                <element signature="n#testRoverSuccessfullyRotatesRightFromWestToNorth#0;n#RoverTests#0;n#!!top" expanded="false" />
-                <element signature="n#testRoverRotatesBackToStartingDirectionAfterFourRotations#0;n#RoverTests#0;n#!!top" expanded="false" />
-                <element signature="n#testRoverProcessesInstructions#0;n#RoverTests#0;n#!!top" expanded="false" />
-              </folding>
+            <state line="1" column="56" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -270,7 +106,16 @@
       <file leaf-file-name="RoverLocation.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rover/RoverLocation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="12" selection-start="7" selection-end="37" vertical-scroll-proportion="0.0">
+            <state line="2" column="15" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interfaces/Observer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -300,11 +145,11 @@
         <option value="$PROJECT_DIR$/test/RoverTests.php" />
         <option value="$PROJECT_DIR$/test/MessageParserTests.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/src/rover/Rover.php" />
-        <option value="$PROJECT_DIR$/src/rover/RoverInstructions.php" />
         <option value="$PROJECT_DIR$/src/MessageParser.php" />
         <option value="$PROJECT_DIR$/test/MessageParserTest.php" />
+        <option value="$PROJECT_DIR$/src/rover/RoverInstructions.php" />
         <option value="$PROJECT_DIR$/test/RoverTest.php" />
+        <option value="$PROJECT_DIR$/src/rover/Rover.php" />
       </list>
     </option>
   </component>
@@ -314,12 +159,11 @@
       <server host="php.tlcowling.com" name="tlcowling_local" />
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP5.3.8" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="137" />
     <option name="y" value="22" />
-    <option name="width" value="1248" />
-    <option name="height" value="874" />
+    <option name="width" value="1680" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -396,6 +240,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -480,16 +334,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -503,10 +347,7 @@
   </component>
   <component name="PublishConfig">
     <servers>
-      <server id="a6af4db3-6ae3-4266-9c61-2d6852f14a48">
-        <serverdata />
-      </server>
-      <server id="f28802ee-8d5e-41f0-8f6c-bdad93d3857a">
+      <server id="5f9275fd-12d1-40b5-93ed-f4f9cce7fefe">
         <serverdata />
       </server>
     </servers>
@@ -524,6 +365,16 @@
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.All Tests">
+    <configuration default="false" name="RoverTest.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test/RoverTest.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Rover.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/rover/Rover.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method>
@@ -581,10 +432,12 @@
       <ConfigurationWrapper RunnerId="PhpUnitDebugRunner" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="PHP Web Application.tlcowling.com" />
       <item index="1" class="java.lang.String" itemvalue="PHP Web Application.tlcowling_local.com" />
       <item index="2" class="java.lang.String" itemvalue="PHPUnit.All Tests" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.RoverTest.php" />
+      <item index="4" class="java.lang.String" itemvalue="PHP Script.Rover.php" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -615,26 +468,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="137" y="22" width="1248" height="874" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2244356" sideWeight="0.8933333" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.22666667" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2575" sideWeight="0.6706507" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.265" sideWeight="0.6706507" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41434264" sideWeight="0.7675" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27267158" sideWeight="0.585825" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.22666667" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41417497" sideWeight="0.7675" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2244356" sideWeight="0.8933333" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2575" sideWeight="0.6706507" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -726,16 +579,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="32" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="32" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="46" selection-start="39" selection-end="47" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="46" selection-start="39" selection-end="47" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rover/Direction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/Observer.php">
@@ -748,6 +602,25 @@
         <state line="2" column="28" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/MessageParserTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="35" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/RoverTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="56" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MessageParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="56" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="5" selection-start="70" selection-end="70" vertical-scroll-proportion="-4.375">
@@ -755,79 +628,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rover/RoverController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="7" selection-end="57" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rover/Direction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/MessageParserTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MessageParser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="56" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rover/RoverLocation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="7" selection-end="37" vertical-scroll-proportion="0.0">
+        <state line="2" column="15" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rover/RoverInstructions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+        <state line="5" column="1" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/RoverTest.php">
+    <entry file="file://$PROJECT_DIR$/src/rover/RoverController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="15" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#testRoverMovesOneBlockToTheNorthFromOrigin#0;n#RoverTests#0;n#!!top" expanded="false" />
-            <element signature="n#testRoverSuccessfullyRotatesLeftFromNorthToWest#0;n#RoverTests#0;n#!!top" expanded="false" />
-            <element signature="n#testRoverSuccessfullyRotatesLeftFromWestToSouth#0;n#RoverTests#0;n#!!top" expanded="false" />
-            <element signature="n#testRoverSuccessfullyRotatesRightFromNorthToEast#0;n#RoverTests#0;n#!!top" expanded="false" />
-            <element signature="n#testRoverSuccessfullyRotatesRightFromWestToNorth#0;n#RoverTests#0;n#!!top" expanded="false" />
-            <element signature="n#testRoverRotatesBackToStartingDirectionAfterFourRotations#0;n#RoverTests#0;n#!!top" expanded="false" />
-            <element signature="n#testRoverProcessesInstructions#0;n#RoverTests#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
+        <state line="2" column="19" selection-start="7" selection-end="57" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rover/Rover.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="31" selection-start="2466" selection-end="2466" vertical-scroll-proportion="1.2442397">
-          <folding>
-            <element signature="n#addObserver#0;n#Rover#0;n#!!top" expanded="false" />
-            <element signature="n#removeObserver#0;n#Rover#0;n#!!top" expanded="false" />
-            <element signature="n#notify#0;n#Rover#0;n#!!top" expanded="false" />
-            <element signature="e#926#1014#0" expanded="false" />
-            <element signature="n#setLocation#0;n#Rover#0;n#!!top" expanded="false" />
-            <element signature="n#save#0;n#Rover#0;n#!!top" expanded="false" />
-            <element signature="n#getLocation#0;n#Rover#0;n#!!top" expanded="false" />
-            <element signature="n#processInstructions#0;n#Rover#0;n#!!top" expanded="false" />
-            <element signature="n#move#0;n#Rover#0;n#!!top" expanded="false" />
-            <element signature="n#turnLeft#0;n#Rover#0;n#!!top" expanded="false" />
-            <element signature="n#turnRight#0;n#Rover#0;n#!!top" expanded="false" />
-          </folding>
+        <state line="100" column="32" selection-start="2780" selection-end="2780" vertical-scroll-proportion="0.53125">
+          <folding />
         </state>
       </provider>
     </entry>
