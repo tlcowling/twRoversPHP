@@ -1,16 +1,15 @@
 <?php
 
-require_once 'simpletest/autorun.php';
-require_once '../src/rover/RoverLocation.php';
-require_once '../src/rover/Rover.php';
+require_once "/Users/thomasweb/Dropbox/Projects/twRoversPHP/src/rover/Rover.php";
+require_once "/Users/thomasweb/Dropbox/Projects/twRoversPHP/src/rover/RoverLocation.php";
 
-class RoverTests extends UnitTestCase{
+class RoverTests extends PHPUnit_Framework_TestCase{
 
     function testRoverIsInitialisedAtOriginFacingNorth(){
         $startingLocation = new RoverLocation(0,0,Direction::NORTH);
         $roverInitialisedAtOrigin = new Rover($startingLocation);
 
-        $this->assertEqual($startingLocation,$roverInitialisedAtOrigin->getLocation());
+        $this->assertEquals($startingLocation,$roverInitialisedAtOrigin->getLocation());
     }
 
     function testRoverMovesOneBlockToTheNorthFromOrigin(){
@@ -20,7 +19,7 @@ class RoverTests extends UnitTestCase{
 
         $roverInitialisedAtOrigin->move();
 
-        $this->assertEqual($roverInitialisedAtOrigin->getLocation(),$expectedLocation);
+        $this->assertEquals($roverInitialisedAtOrigin->getLocation(),$expectedLocation);
     }
 
     function testRoverSuccessfullyRotatesLeftFromNorthToWest(){
@@ -30,7 +29,7 @@ class RoverTests extends UnitTestCase{
 
         $roverThatWillRotateLeft->turnLeft();
 
-        $this->assertEqual($locationAndDirectionAfterLeftRotation,$roverThatWillRotateLeft->getLocation());
+        $this->assertEquals($locationAndDirectionAfterLeftRotation,$roverThatWillRotateLeft->getLocation());
     }
 
     function testRoverSuccessfullyRotatesLeftFromWestToSouth(){
@@ -40,7 +39,7 @@ class RoverTests extends UnitTestCase{
 
         $roverThatWillRotateLeft->turnLeft();
 
-        $this->assertEqual($locationAndDirectionAfterLeftRotation,$roverThatWillRotateLeft->getLocation());
+        $this->assertEquals($locationAndDirectionAfterLeftRotation,$roverThatWillRotateLeft->getLocation());
     }
 
     function testRoverSuccessfullyRotatesRightFromNorthToEast(){
@@ -50,7 +49,7 @@ class RoverTests extends UnitTestCase{
 
         $roverThatWillRotateRight->turnRight();
 
-        $this->assertEqual($locationAndDirectionAfterRightRotation,$roverThatWillRotateRight->getLocation());
+        $this->assertEquals($locationAndDirectionAfterRightRotation,$roverThatWillRotateRight->getLocation());
     }
 
     function testRoverSuccessfullyRotatesRightFromWestToNorth(){
@@ -60,7 +59,7 @@ class RoverTests extends UnitTestCase{
 
         $roverThatWillRotateRight->turnRight();
 
-        $this->assertEqual($locationAndDirectionAfterRightRotation,$roverThatWillRotateRight->getLocation());
+        $this->assertEquals($locationAndDirectionAfterRightRotation,$roverThatWillRotateRight->getLocation());
     }
 
     function testRoverRotatesBackToStartingDirectionAfterFourRotations(){
@@ -73,6 +72,18 @@ class RoverTests extends UnitTestCase{
         $roverThatWillFullyRotate->turnLeft();
         $roverThatWillFullyRotate->turnLeft();
 
-        $this->assertEqual($locationAndDirectionAfterFullRotation,$roverThatWillFullyRotate->getLocation());
+        $this->assertEquals($locationAndDirectionAfterFullRotation,$roverThatWillFullyRotate->getLocation());
+    }
+
+    function testRoverProcessesInstructions(){
+        $roverThatWillProcessInstructions = new Rover(new RoverLocation(0,0,Direction::NORTH));
+        $expectedLocation = new RoverLocation(1,2,Direction::EAST);
+
+        $roverThatWillProcessInstructions->move();
+        $roverThatWillProcessInstructions->move();
+        $roverThatWillProcessInstructions->turnRight();
+        $roverThatWillProcessInstructions->move();
+
+        $this->assertEquals($expectedLocation,$roverThatWillProcessInstructions->getLocation());
     }
 }

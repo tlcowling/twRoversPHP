@@ -8,8 +8,8 @@ require_once 'RoverLocation.php';
 require_once 'RoverController.php';
 require_once 'RoverInstructions.php';
 
-class Rover implements Subject
-{
+class Rover implements Subject{
+
     public $location;
     private $_observers = array();
 
@@ -18,13 +18,11 @@ class Rover implements Subject
         $this->addObserver(new RoverController());
     }
 
-    public function addObserver(Observer $observer)
-    {
+    public function addObserver(Observer $observer){
         $this->_observers[] = $observer;
     }
 
-    public function removeObserver(Observer $observer)
-    {
+    public function removeObserver(Observer $observer){
         foreach($this->_observers as $index => $observerInArray){
             if($observer == $observerInArray){
                 unset($this->_observers[$index]);
@@ -32,15 +30,10 @@ class Rover implements Subject
         }
     }
 
-    public function notify()
-    {
+    public function notify(){
         foreach($this->_observers as $observer){
             $observer->update($this);
         }
-    }
-
-    private function save(){
-        $this->notify();
     }
 
     public function setLocation($location){
@@ -48,12 +41,32 @@ class Rover implements Subject
         $this->save();
     }
 
+    private function save(){
+        $this->notify();
+    }
+
     public function getLocation(){
         return $this->location;
     }
 
-    public function processInstructions($instructions){
-        echo MessageParser::parseMessage($instructions);
+    public function processInstructions($roverInstructions){
+        $location = new RoverLocation($roverInstructions[0],$roverInstructions[1],Direction::characterToDirection($roverInstructions[2]));
+        $directions = $roverInstructions->directions;
+
+        print_r($directions[0]);
+
+        $this->setLocation($location);
+
+        foreach($directions as $direction){
+            switch($direction){
+                case 'L':
+                    $this->turnLeft();
+                case 'R':
+                    $this->turnRight();
+                case 'M':
+                    $this->move();
+            }
+        }
     }
 
     public function move(){
@@ -75,7 +88,7 @@ class Rover implements Subject
         }
     }
 
-    function turnLeft(){
+    public function turnLeft(){
         $currentRoverDirection = $this->location->direction();
         if($currentRoverDirection == Direction::NORTH){
             $this->location->setDirection(Direction::WEST);
@@ -84,7 +97,7 @@ class Rover implements Subject
         }
     }
 
-    function turnRight(){
+    public function turnRight(){
         $currentRoverDirection = $this->location->direction();
         if($currentRoverDirection == Direction::WEST){
             $this->location->setDirection(Direction::NORTH);
